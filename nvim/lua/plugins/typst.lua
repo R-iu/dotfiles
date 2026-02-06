@@ -2,12 +2,23 @@ return {
 	{
 		"chomosuke/typst-preview.nvim",
 		cmd = { "TypstPreview", "TypstPreviewToggle", "TypstPreviewUpdate" },
+
+		init = function()
+			vim.g.maplocalleader = "\\"
+		end,
+
 		keys = {
 			{
-				"<leader>cp",
+				"<localleader>lv",
 				ft = "typst",
 				"<cmd>TypstPreviewToggle<cr>",
 				desc = "Toggle Typst Preview",
+			},
+			{
+				"<localleader>ll",
+				ft = "typst",
+				":w<CR>:!typst compile %<CR>",
+				desc = "Compile Typst Document",
 			},
 		},
 		opts = {

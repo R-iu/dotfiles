@@ -28,9 +28,9 @@ function shutdown
     sysup
 end
 
-if test "$TERM" = xterm-kitty
-    fastfetch
-end
+# if test "$TERM" = xterm-kitty
+#     fastfetch
+# end
 
 # List Directory
 alias l='eza -lh  --icons=auto' # long list
@@ -75,4 +75,13 @@ function uvi --wraps uv --description 'alias uvi= uv init'
     cd $argv[1] | echo "source .venv/bin/activate" >.envrc
     uv venv
     direnv allow .
+end
+
+function typst_template --description 'apply typst template'
+    set -l template_path ~/Documents/typst_template/template.typ
+    if test -f "$template_path"
+        cat "$template_path" >"$argv[1]"
+    else
+        echo "Template file not found: $template_path"
+    end
 end
