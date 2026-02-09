@@ -82,6 +82,13 @@ return {
 					},
 					filetypes = { "arduino" },
 				},
+
+				jdtls = {},
+			},
+			setup = {
+				jdtls = function()
+					return true -- avoid duplicate servers
+				end,
 			},
 		},
 	},
@@ -134,6 +141,7 @@ return {
 				"html",
 				"javascript",
 				"json",
+				"java",
 				"lua",
 				"markdown",
 				"markdown_inline",
@@ -206,6 +214,8 @@ return {
 				"shellcheck",
 				"shfmt",
 				"flake8",
+				"java-debug-adapter",
+				"java-test",
 			},
 		},
 	},
