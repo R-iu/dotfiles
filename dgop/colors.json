@@ -1,0 +1,49 @@
+{
+  "ui": {
+    "border_primary": "#b0c6ff",
+    "border_secondary": "#c0c6dc",
+    "header_background": "#b0c6ff",
+    "header_text": "#152e60",
+    "footer_background": "#121318",
+    "footer_text": "#c5c6d0",
+    "text_primary": "#e2e2e9",
+    "text_secondary": "#c5c6d0",
+    "text_accent": "#b0c6ff",
+    "selection_background": "#b0c6ff",
+    "selection_text": "#152e60"
+  },
+  "charts": {
+    "network_download": "#b0c6ff",
+    "network_upload": "#2e4578",
+    "network_line": "#c0c6dc",
+    "cpu_core_low": "#2e4578",
+    "cpu_core_medium": "#b0c6ff",
+    "cpu_core_high": "#e0bbde",
+    "disk_read": "#b0c6ff",
+    "disk_write": "#2e4578"
+  },
+  "progress_bars": {
+    "memory_low": "#2e4578",
+    "memory_medium": "#b0c6ff",
+    "memory_high": "#e0bbde",
+    "disk_low": "#2e4578",
+    "disk_medium": "#b0c6ff",
+    "disk_high": "#e0bbde",
+    "cpu_low": "#2e4578",
+    "cpu_medium": "#b0c6ff",
+    "cpu_high": "#e0bbde",
+    "progress_background": "#1e1f25"
+  },
+  "temperature": {
+    "cold": "#2e4578",
+    "warm": "#b0c6ff",
+    "hot": "#e0bbde",
+    "danger": "#ffb4ab"
+  },
+  "status": {
+    "success": "#22C55E",
+    "warning": "#F59E0B",
+    "error": "#ffb4ab",
+    "info": "#b0c6ff"
+  }
+}

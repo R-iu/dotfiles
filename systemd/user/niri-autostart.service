@@ -1,0 +1,12 @@
+[Unit]
+Description=Niri Session Autostart
+After=graphical-session-pre.target
+StartLimitIntervalSec=60
+StartLimitBurst=3
+[Service]
+ExecStart=/usr/bin/niri-session
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
