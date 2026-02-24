@@ -19,7 +19,7 @@ function y
     rm -f -- "$tmp"
 end
 
-abbr lsfg 'LSFG_PROCESS="miyu"'
+abbr lsfg 'set LSFG_PROCESS "miyu"'
 # fa运行fastfetch
 abbr fa fastfetch
 abbr reboot 'systemctl reboot'
