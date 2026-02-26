@@ -150,7 +150,7 @@ binds {
     
     // 开启colume的标签页模式
     Mod+Shift+X { toggle-column-tabbed-display; }
-    Mod+X { toggle-column-tabbed-display; }
+    // Mod+X { toggle-column-tabbed-display; }
     // mod+鼠标侧键 上下切换聚焦
     Mod+MouseForward { focus-window-up; }
     Mod+MouseBack    { focus-window-down; }
@@ -208,7 +208,7 @@ binds {
     // 任务管理器 (Mod+M)
     Mod+M hotkey-overlay-title="Task Manager" { spawn "dms" "ipc" "call" "processlist" "focusOrToggle"; }
     // 电源菜单 (Super+X)
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
     // 壁纸选择器 (Mod+Y，作为 Mod+Alt+W 的备用)
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
     // 剪贴板

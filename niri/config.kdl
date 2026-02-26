@@ -287,6 +287,7 @@ spawn-at-startup "dms" "run"
 spawn-at-startup "fcitx5" "-d"
 spawn-sh-at-startup "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=niri & /usr/lib/xdg-desktop-portal-gnome"
 spawn-at-startup "~/.config/niri/shorin-niri/scripts/screenshot-sound.sh"
+spawn-at-startup "dms" "ipc" "call" "lock" "lock"
 include "shorin-niri/rule.kdl"
 include "shorin-niri/supertab.kdl"
 
@@ -296,3 +297,4 @@ cursor {
     xcursor-size 30
     hide-after-inactive-ms 15000
 }
+

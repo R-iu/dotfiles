@@ -9,7 +9,7 @@ post_hook = 'pywalfox update &'
 [templates.fcitx5]
 input_path = '~/.config/matugen/templates/fcitx5-theme.conf'
 output_path = '~/.local/share/fcitx5/themes/Matugen/theme.conf'
-post_hook= 'fcitx5 -r & disown '
+post_hook = 'fcitx5 -r & disown '
 
 [templates.btop]
 input_path = '~/.config/matugen/templates/btop.theme'
@@ -21,9 +21,9 @@ input_path = '~/.config/matugen/templates/cava-colors.ini'
 output_path = '~/.config/cava/themes/your-theme'
 #post_hook = "pkill -USR1 cava"
 
-[templates.starship]
-input_path = '~/.config/matugen/templates/starship-colors.toml'
-output_path = '~/.config/starship.toml'
+# [templates.starship]
+# input_path = '~/.config/matugen/templates/starship-colors.toml'
+# output_path = '~/.config/starship.toml'
 
 [templates.yazi]
 input_path = '~/.config/matugen/templates/yazi-theme.toml'
@@ -41,4 +41,3 @@ output_path = '~/.config/fastfetch/config.jsonc'
 [templates.fuzzel]
 input_path = '~/.config/matugen/templates/fuzzel.ini'
 output_path = '~/.config/fuzzel/colors.ini'
-

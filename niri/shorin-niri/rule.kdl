@@ -5,7 +5,7 @@
 // 放进overview里的壁纸程序
 layer-rule{
     match namespace="dms:blurwallpaper"
-     place-within-backdrop true
+    place-within-backdrop true
 }
 // 以浮动模式打开imv（一个轻量化图片预览程序）且不自动聚焦
 window-rule {
@@ -35,26 +35,26 @@ window-rule {
     match app-id="niri-quick-switch"
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     match app-id="steam" title="Friends List"
-    match app-id="blueberry.py" title="蓝牙"
+    match app-id="blueberry.py" title="bluetooth"
     match app-id="blueman-manager"
     match app-id="flameshot"
     match app-id="com.github.hluk.copyq" 
     match app-id="be.alexandervanhee.gradia"
-    match app-id="org.pulseaudio.pavucontrol" title="音量控制"
-    match app-id="org.gnome.clocks" title="时钟"
+    match app-id="org.pulseaudio.pavucontrol" title="volume control"
+    match app-id="org.gnome.clocks" title="clock"
     match app-id="fcitx" title="Fcitx5 Input Window"
     match app-id="org.gnome.FileRoller"
-    match app-id="thunar" title="文件操作进度"
+    match app-id="thunar" title="file explorer"
     match app-id="waypaper"
     match app-id="clipse-gui"
-    match title="群聊的聊天记录"
-    match title="聊天记录"
-    match title="日历"
-    match title="重命名"
+    match title="group chat history"
+    match title="chat history"
+    match title="calendar"
+    match title="rename"
     match app-id="btrfs-assistant"
     match app-id="markpix"
-    match title="Steam 设置" 
-    match title="另存为"
+    match title="Steam settings" 
+    match title="save as"
     match app-id="better_control.py"
     open-floating true
 }
@@ -92,10 +92,10 @@ window-rule {
 }
 // 取消图片预览、视频播放器之类的透明度，并且以浮动模式打开
 window-rule {
-    match title="图片查看器"
-    match title="画中画"
-    match title="图片和视频"
-    match title="视频播放器"
+    match title="image viewer"
+    match title="picture-in-picture"
+    match title="image and video"
+    match title="video player"
     open-floating true
     opacity 1.0
 }
