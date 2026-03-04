@@ -3,6 +3,9 @@ Code/
 Cursor/
 libreoffice/
 Unknown Organization/
+Docker Desktop/
+JetBrains/
+VESC/
 
 gh/
 github-copilot/
@@ -10,10 +13,16 @@ github-copilot/
 thefuck/
 obsidian/
 Notion/
+cagent/
+flutter/
+qalculate/
+spotify/
 
 mozilla/
 zen/
 google-chrome/
+Google/
+systemd/
 
 fcitx/
 vesktop/
@@ -21,3 +30,5 @@ Surfshark/
 
 zoom.conf
 zoomus.conf
+.env.fish
+pavucontrol.ini

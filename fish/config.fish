@@ -4,6 +4,7 @@ end
 
 set fish_greeting ""
 set -p PATH ~/.local/bin
+set -p PATH ~/Documents/flutter/bin
 starship init fish | source
 zoxide init fish --cmd cd | source
 fzf --fish | source
@@ -85,3 +86,22 @@ function typst_template --description 'apply typst template'
         echo "Template file not found: $template_path"
     end
 end
+
+set -gx CHROME_EXECUTABLE /usr/bin/google-chrome-stable
+
+# Set Android Home
+set -gx ANDROID_HOME $HOME/Android/Sdk
+set -gx ANDROID_SDK_ROOT $ANDROID_HOME
+
+# Add SDK tools to PATH
+fish_add_path $ANDROID_HOME/cmdline-tools/latest/bin
+fish_add_path $ANDROID_HOME/platform-tools
+fish_add_path $ANDROID_HOME/emulator
+
+# Add the cmdline-tools bin directory
+fish_add_path /opt/android-sdk/cmdline-tools/latest/bin
+
+# Ensure platform-tools (adb) are also there
+fish_add_path /opt/android-sdk/platform-tools
+
+source ~/.config/.env.fish

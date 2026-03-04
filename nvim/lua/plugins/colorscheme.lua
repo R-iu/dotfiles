@@ -62,18 +62,18 @@ return {
 	-- 		colorscheme = "catppuccin-mocha",
 	-- 	},
 	-- },
-	-- {
-	-- 	"xiyaowong/transparent.nvim",
-	-- 	opts = {
-	-- 		extra_groups = {
-	-- 			"BufferLineTabClose",
-	-- 			"BufferLineBufferSelected",
-	-- 			"BufferLineFill",
-	-- 			"BufferLineBackground",
-	-- 			"BufferLineSeparator",
-	-- 			"BufferLineIndicatorSelected",
-	-- 			"NormalFloat",
-	-- 		},
-	-- 	},
-	-- },
+	{
+		"xiyaowong/transparent.nvim",
+		opts = {
+			extra_groups = {
+				"BufferLineTabClose",
+				"BufferLineBufferSelected",
+				"BufferLineFill",
+				"BufferLineBackground",
+				"BufferLineSeparator",
+				"BufferLineIndicatorSelected",
+				"NormalFloat",
+			},
+		},
+	},
 }
