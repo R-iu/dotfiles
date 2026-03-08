@@ -18,6 +18,7 @@ return {
 			date_format = "%Y-%m-%d-%a",
 			time_format = "%H:%M",
 		},
+		legacy_commands = false,
 		-- see below for full list of options 👇
 	},
 }

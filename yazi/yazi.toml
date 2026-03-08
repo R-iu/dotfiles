@@ -2,18 +2,19 @@
 show_hidden = true
 
 [opener]
-edit = [{ run = '/usr/bin/nvim "$@"', block = true, for = "unix" }]
+edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
 
-view = [{ run = '/usr/bin/zathura "$@"', orphan = true, for = "unix" }]
+view = [{ run = 'zathura "$@"', orphan = true, for = "unix" }]
 
-play = [{ run = '/usr/bin/mpv "$@"', orphan = true, for = "unix" }]
+play = [{ run = 'mpv "$@"', orphan = true, for = "unix" }]
 
-open = [{ run = '/usr/bin/libreoffice "$@"' }]
+open = [{ run = 'libreoffice "$@"' }]
 
 [open]
 rules = [
   { mime = "text/*", use = "edit" },
 
+  { mime = "application/pdf", use = "view" },
   { name = "*.pdf", use = "view" },
 
   { name = "*.mkv", use = "play" },

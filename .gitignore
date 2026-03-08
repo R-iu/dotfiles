@@ -27,6 +27,8 @@ systemd/
 fcitx/
 vesktop/
 Surfshark/
+vlc/
+QtProject.conf
 
 zoom.conf
 zoomus.conf
