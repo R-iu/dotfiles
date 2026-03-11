@@ -79,12 +79,9 @@ function uvi --wraps uv --description 'alias uvi= uv init'
 end
 
 function typst_template --description 'apply typst template'
-    set -l template_path ~/Documents/typst_template/template.typ
-    if test -f "$template_path"
-        cat "$template_path" >"$argv[1]"
-    else
-        echo "Template file not found: $template_path"
-    end
+    typst init @local/assignment_template:0.1.0
+    mv assignment_template/* . && rm -rf assignment_template
+    mv main.typ $argv
 end
 
 set -gx CHROME_EXECUTABLE /usr/bin/google-chrome-stable

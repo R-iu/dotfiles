@@ -34,6 +34,7 @@ application/xhtml+xml=zen.desktop
 application/x-extension-xhtml=zen.desktop
 application/x-extension-xht=zen.desktop
 x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/figma=figma-linux.desktop
 
 [Added Associations]
 image/png=io.gitlab.theevilskeleton.Upscaler.desktop;satty.desktop;imv.desktop;
