@@ -1,0 +1,55 @@
+font-family = CaskaydiaMono Nerd Font Mono 
+font-size = 11
+
+
+background-opacity = 0.8
+# background-blur-radius = 20
+background-blur = false
+unfocused-split-opacity = 0.7
+resize-overlay = never
+custom-shader = "~/.config/ghostty/shader/shader.glsl"
+
+theme = Catppuccin Macchiato
+window-padding-x = 12
+window-padding-y = 5
+
+keybind = ctrl+comma=open_config
+keybind = ctrl+w=close_surface
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+h=goto_split:left
+
+keybind = alt+h=new_split:right
+keybind = alt+v=new_split:down
+
+gtk-titlebar = false
+gtk-wide-tabs = false
+
+command = /usr/bin/fish
+
+cursor-color = #e2e2e9
+cursor-text= #c5c6d0
+
+foreground = #e2e2e9
+background = #121318
+selection-foreground = #293042
+selection-background = #c0c6dc
+# url-color = #b0c6ff
+
+palette = 0 = #121318
+palette = 1 = #ff7299
+palette = 2 = #7fff93
+palette = 3 = #fff872
+palette = 4 = #98b1f2
+palette = 5 = #324576
+palette = 6 = #b0c6ff
+palette = 7 = #eff3ff
+palette = 8 = #999ca5
+palette = 9 = #ff9fb9
+palette = 10= #a5ffb3
+palette = 11= #fffba5
+palette = 12= #bbceff
+palette = 13= #c7d7ff
+palette = 14= #dbe5ff
+palette = 15= #f8faff
