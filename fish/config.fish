@@ -102,3 +102,8 @@ fish_add_path /opt/android-sdk/cmdline-tools/latest/bin
 fish_add_path /opt/android-sdk/platform-tools
 
 source ~/.config/.env.fish
+
+fish_add_path ~/.npm-global/bin
+set -gx NODE_PATH /home/riu/.npm-global/lib/node_modules
+
+alias obsidian-cli="notesmd-cli"

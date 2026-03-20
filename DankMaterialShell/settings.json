@@ -315,7 +315,7 @@
   "lockScreenShowPasswordField": true,
   "lockScreenShowMediaPlayer": true,
   "lockScreenPowerOffMonitorsOnLock": false,
-  "lockAtStartup": false,
+  "lockAtStartup": true,
   "enableFprint": false,
   "maxFprintTries": 15,
   "lockScreenActiveMonitor": "all",

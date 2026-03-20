@@ -22,7 +22,9 @@ spotify/
 mozilla/
 zen/
 google-chrome/
+google-chrome-for-testing/
 Google/
+gcloud/
 systemd/
 
 fcitx/
@@ -31,6 +33,15 @@ Surfshark/
 vlc/
 QtProject.conf
 heroic/
+QQ/
+menus/
+
+claude/
+clawhub/
+git/
+go/
+notesmd-cli/
+notion/
 
 zoom.conf
 zoomus.conf
