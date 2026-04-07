@@ -1,5 +1,6 @@
 autostart/
 Code/
+cursor/
 Cursor/
 libreoffice/
 Unknown Organization/
@@ -26,6 +27,8 @@ google-chrome-for-testing/
 Google/
 gcloud/
 systemd/
+obs-studio/
+wireplumber/
 
 fcitx/
 vesktop/

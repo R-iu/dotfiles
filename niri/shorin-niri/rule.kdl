@@ -105,6 +105,15 @@ window-rule {
     opacity 1.0 
 }
 
+window-rule {
+  match title="Picture-in-Picture"
+  open-floating true
+
+  default-window-height {fixed 400;}
+  default-column-width {fixed 700;}
+  default-floating-position x=2350 y=1280 
+}
+
 
 window-rule {
     // This regular expression is intentionally made as specific as possible,
