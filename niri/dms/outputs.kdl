@@ -3,18 +3,24 @@
 output "HDMI-A-1" {
     mode "3840x2160@60.000"
     scale 1.25
-    position x=0 y=497
+    position x=0 y=1152
+}
+
+output "DP-2" {
+    mode "2560x1440@59.951"
+    scale 1
+    position x=2816 y=0
 }
 
 output "eDP-1" {
     mode "2880x1800@120.001"
     scale 1.25
-    position x=3072 y=785
+    position x=3072 y=1440
 }
 
 output "DP-4" {
     mode "1920x1080@60.000"
     scale 1
-    position x=7040 y=0
+    position x=6878 y=655
 }
 

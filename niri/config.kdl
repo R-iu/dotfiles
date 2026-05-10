@@ -28,6 +28,9 @@ input {
             // If this section is empty, niri will fetch xkb settings
             // from org.freedesktop.locale1. You can control these using
             // localectl set-x11-keymap.
+            layout "us,us"
+            variant ",colemak"
+            options "grp:alt_shift_toggle" // switch between layouts with Win+Space
         }
 
         // Enable numlock on startup, omitting this setting disables it.
@@ -251,6 +254,10 @@ window-rule {
     match app-id="com.mitchellh.ghostty"
     match app-id="kitty"
     draw-border-with-background false
+
+    background-effect{
+      blur true
+    }
 }
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
