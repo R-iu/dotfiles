@@ -1,0 +1,7 @@
+{
+  "name": "nemoclaw",
+  "gateway_endpoint": "http://127.0.0.1:8080",
+  "is_remote": false,
+  "gateway_port": 0,
+  "auth_mode": "plaintext"
+}

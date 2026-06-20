@@ -25,9 +25,9 @@ output_path = '~/.config/cava/themes/your-theme'
 # input_path = '~/.config/matugen/templates/starship-colors.toml'
 # output_path = '~/.config/starship.toml'
 
-[templates.yazi]
-input_path = '~/.config/matugen/templates/yazi-theme.toml'
-output_path = '~/.config/yazi/theme.toml'
+# [templates.yazi]
+# input_path = '~/.config/matugen/templates/yazi-theme.toml'
+# output_path = '~/.config/yazi/theme.toml'
 
 [templates.gtk-folder]
 input_path = '~/.config/matugen/templates/gtk-folder/recolor.sh'

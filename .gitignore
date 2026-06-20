@@ -53,6 +53,10 @@ git/
 go/
 notesmd-cli/
 notion/
+blender/
+discord/
+draw.io/
+firebase/
 
 zoom.conf
 zoomus.conf

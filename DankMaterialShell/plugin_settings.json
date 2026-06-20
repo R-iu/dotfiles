@@ -1,0 +1,35 @@
+{
+  "linuxWallpaperEngine": {
+    "enabled": false,
+    "monitorPlaylists": {},
+    "monitorScenes": {
+      "eDP-1": "3028090166",
+      "HDMI-A-1": "3028090166"
+    },
+    "playlistIntervalMinutes": 5,
+    "sceneSettings": {
+      "971698229": {
+        "screenshotDelay": 20
+      },
+      "2834933421": {
+        "scaling": "fill"
+      },
+      "2856406172": {
+        "silent": true
+      },
+      "3028090166": {
+        "scaling": "fill"
+      },
+      "3116175301": {
+        "scaling": "fill"
+      },
+      "/home/riu/.local/share/Steam/steamapps/workshop/content/431960/821372791": {
+        "fps": 60,
+        "scaling": "fill"
+      }
+    },
+    "pauseOnPowerSaver": true,
+    "pauseOnBattery": true,
+    "generateStaticWallpaper": true
+  }
+}

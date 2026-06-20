@@ -29,12 +29,12 @@ input {
             // from org.freedesktop.locale1. You can control these using
             // localectl set-x11-keymap.
             layout "us,us"
-            variant ",colemak"
+            variant "colemak_dh,"
             options "grp:alt_shift_toggle" // switch between layouts with Win+Space
         }
 
         // Enable numlock on startup, omitting this setting disables it.
-        //numlock
+        numlock
     }
 
     // Next sections include libinput settings.
