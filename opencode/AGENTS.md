@@ -30,3 +30,10 @@
   frontend web capabilities, strictly execute
   `npx modern-web-guidance@latest search "<query>"` to implement modern native
   APIs and accessibility standards rather than hallucinating legacy fallbacks.
+- *Visible Browser Preference:* When the user asks to use or show results in
+  their browser, use Zen directly with Google URLs, e.g.
+  `zen-browser "https://www.google.com/search?q=<query>"`. Do not launch
+  `agent-browser`, Chrome for Testing, Bing, or DuckDuckGo for simple visible
+  browsing/search tasks. Use `agent-browser` only when browser automation is
+  needed: snapshots, clicking refs, console/network/storage inspection, or
+  scripted page interaction.

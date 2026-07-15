@@ -17,6 +17,8 @@ binds {
     //打开浏览器
     Mod+B hotkey-overlay-title="Browser" { spawn "zen-browser"; }        
 
+    Alt+Space hotkey-overlay-title="Handy speech recognition" repeat=false { spawn "handy" "--toggle-transcription"; }
+
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Terminal" { spawn "ghostty"; }
     // settings

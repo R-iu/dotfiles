@@ -1,15 +1,24 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
-    "./plugin/local-session-time.js"
+    "superpowers@git+https://github.com/obra/superpowers.git",
+    "opencode-agent-browser"
   ],
   "instructions": [
     "./instructions/delta-diffs.md"
   ],
+  "skills": {
+    "paths": [
+      "/home/riu/.config/opencode/open-design-skills/skills"
+    ]
+  },
   "mcp": {
     "blender-mcp": {
       "type": "local",
-      "command": ["/usr/bin/uvx", "blender-mcp"],
+      "command": [
+        "/usr/bin/uvx",
+        "blender-mcp"
+      ],
       "enabled": true,
       "environment": {
         "BLENDER_HOST": "localhost",
@@ -19,7 +28,11 @@
     },
     "mcp-server-chart": {
       "type": "local",
-      "command": ["npx", "-y", "@antv/mcp-server-chart"],
+      "command": [
+        "npx",
+        "-y",
+        "@antv/mcp-server-chart"
+      ],
       "enabled": true
     }
   },

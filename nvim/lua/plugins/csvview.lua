@@ -18,5 +18,23 @@ return {
 			jump_prev_row = { "<S-Enter>", mode = { "n", "v" } },
 		},
 	},
-	cmd = { "CsvViewEnable", "CsvViewDisable", "CsvViewToggle" },
+	config = function(_, opts)
+		require("csvview").setup(opts)
+		require("config.csvview_tools").setup()
+
+		local group = vim.api.nvim_create_augroup("CsvViewAutoEnable", { clear = true })
+		vim.api.nvim_create_autocmd("FileType", {
+			group = group,
+			pattern = "csv",
+			callback = function()
+				vim.cmd("CsvViewEnable")
+			end,
+		})
+
+		if vim.bo.filetype == "csv" then
+			vim.cmd("CsvViewEnable")
+		end
+	end,
+	ft = "csv",
+	cmd = { "CsvViewEnable", "CsvViewDisable", "CsvViewToggle", "CsvViewFilter", "CsvViewRank", "CsvViewSort" },
 }
